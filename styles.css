@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #d17a7a;
+    background: #27353f;
+}
+
+.container{
+    min-height: 800px;
+    background: url('https://hobbyoutlet.ru/wa-data/public/shop/products/62/17/891762/images/9827/9827.750x0.jpg') center/cover no-repeat;
+}
+
+.my_projects {
+    display: block;
+    left: 10px;
+}
+
+.my_projects a{
+    color: #39bedc;
+}
+
+#mailme{
+    color: rgb(0, 136, 255);
+}
