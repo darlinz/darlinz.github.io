@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Пример сайта на Bootstrap с анимацией</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Навигационная панель -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Главная <span class="sr-only">(текущая)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">О проекте</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Главный раздел -->
+    <section class="container mt-5" data-aos="fade-up">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Добро пожаловать!</h1>
+                <p class="lead">ого интересная информация про моего любимого персонажа.</p>
+                <a href="#features" class="btn btn-primary">Узнать больше</a>
+            </div>
+            <div class="col-md-6 text-center" data-aos="zoom-in" data-aos-delay="300">
+                <img src="img/karl.jpg" alt="Картинка" class="rounded-image2">
+            </div>
+        </div>
+    </section>
+
+    <section id="middle-section" class="container mt-30" data-aos="fade-up">
+        <div class="row">
+            <div class="col-md-12 text-center" data-aos="fade-up" data-aos-delay="300">
+                <h2>Карл Гейзенберг</h2>
+                <div id="extended-description" class="text-center">
+                    <p>Карл Гейзенберг (англ. Karl Heisenberg) — мутировавший человек, проживавший в изолированной деревне Восточной Европы. 
+                        Являлся главой семьи Гейзенберг и непревзойденным гением в области инженерии. Гейзенберг владел фабрикой, расположенной недалеко от деревни, 
+                        и вместе с остальными тремя влиятельными семействами служил Матери Миранде.</p>
+                </div>
+                <a href="https://residentevil.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%80%D0%BB_%D0%93%D0%B5%D0%B9%D0%B7%D0%B5%D0%BD%D0%B1%D0%B5%D1%80%D0%B3" class="btn btn-primary">Подробнее про Гейзенберга</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="circle-section" class="container mt-5" data-aos="fade-up">
+      <div class="row">
+
+          <div class="col-md-4 text-center mb-4" data-aos="zoom-in" data-aos-delay="100">
+              <img src="img/soldat-eins.png" alt="Кружок 1" class="rounded-image">
+              <h3>Солдат "Айнс"</h3>
+              <p>Солдат Айнс: базовый вариант солдата с заменой левой руки буром. “Eins” в переводе с немецкого означает “один”.</p>
+          </div>
+
+          <div class="col-md-4 text-center mb-4" data-aos="zoom-in" data-aos-delay="200">
+              <img src="img/soldat-zwei.png" alt="Кружок 2" class="rounded-image">
+              <h3>Солдат "Цвай"</h3>
+              <p>Солдат Цвай: улучшенный Солдат Айнс, у которого обе руки заменены на буры. 
+                Вентиляционное отверстие реактора также было перемещено назад, верхняя часть головы мутанта открыта, а нижняя половина закрыта лицевой маской. 
+                “Zwei” в переводе с немецкого означает “два”.</p>
+          </div>
+
+          <div class="col-md-4 text-center mb-4" data-aos="zoom-in" data-aos-delay="300">
+              <img src="img/soldat-jet.png" alt="Кружок 3" class="rounded-image">
+              <h3>Реактивный солдат</h3>
+              <p>Реактивный солдат: элитный солдат с реактивным ранцем, позволяющим совершать быстрые смертоносные атаки.
+                Его шлем содержит лазерный прицел, показывающий игроку куда мутант будет делать рывок.</p>
+          </div>
+      </div>
+  </section>
+
+  <section id="button-section" class="container mt-5" data-aos="fade-up">
+      <div class="row d-flex justify-content-center">
+          <div class="col-md-2 text-center">
+              <a href="https://residentevil.fandom.com/ru/wiki/Resident_Evil_Village" class="btn btn-success btn-lg">Больше про re8</a>
+          </div>
+          <div class="col-md-2 text-center">
+              <a href="https://residentevil.fandom.com/ru/wiki/%D0%A1%D0%BE%D0%BB%D0%B4%D0%B0%D1%82" class="btn btn-warning btn-lg">Больше про солдат</a>
+          </div>
+      </div>
+  </section>
+  
+  <div class="container">
+    <div class="row">   
+        <div class="col-md-6">
+            <h2 data-aos="fade-up">Другие творения Гейзенберга</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Бронесолдат и Штурм</p>
+            <div class="btn-group" data-aos="fade-up" data-aos-delay="200">
+                <button type="button" class="btn btn-primary">айнс</button>
+                <button type="button" class="btn btn-primary">цвай</button>
+                <button type="button" class="btn btn-primary">бронесолдат</button>
+                <button type="button" class="btn btn-primary">штурм</button>
+                <button type="button" class="btn btn-primary">реактивный солдат</button>
+            </div>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <img src="img/soldat-panzer.png" alt="Изображение 1" class="img-fluid mb-3 draggable">
+            <img src="img/sturm.png" alt="Изображение 2" class="img-fluid mb-3 draggable">
+        </div>
+    </div>
+</div>
+
+<div class="container mt-3">
+    <div id="video-container">
+        <div id="video" data-aos="fade-up" data-aos-delay="100">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Aym4TtRXLUc?si=NkTL0rqPH9T7IabG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-md-6 mt-3 text-center" data-aos="fade-up" data-aos-delay="200">
+                <h2>All Heisenberg cutscenes</h2>
+                <p>Enjoy</p>
+                <a href="https://www.youtube.com/embed/Aym4TtRXLUc?si=NkTL0rqPH9T7IabG" class="btn btn-primary">Watch on YouTube</a>
+
+                <div class="marg"></div>
+            </div>
+        </div>
+    </div>
+
+<!-- Bootstrap and AOS Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>

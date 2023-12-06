@@ -1,0 +1,208 @@
+.rounded-image2 {
+    border-radius: 50%;
+    max-width: 800px;
+    height: auto;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    max-width: 100px;
+    height: auto;
+}
+
+
+.h1, h1 {
+    font-size: 5.5rem;
+}
+
+#middle-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+
+        #extended-description {
+            text-align: center;
+        }
+
+        #middle-section h2,
+        #contact h2 {
+            text-align: center;
+        }
+
+        .card {
+            text-align: center;
+        }
+        .mb-4, .my-4 {
+            margin-bottom: 20.5rem!important;
+        }
+
+.card {
+    border: none; /* Убираем рамку у карточек */
+    margin-bottom: 20px; /* Добавляем немного отступа снизу между карточками */
+  }
+  
+  .card-body {
+    text-align: center; /* Выравниваем текст по центру внутри карточки */
+  }
+  
+  .card-img-top {
+    margin: 20px auto 10px; /* Выравниваем изображение чуть ниже и по центру внутри карточки */
+    display: block; /* Чтобы margin: 0 auto; сработало, изображение должно быть блочным элементом */
+  }
+
+  #middle-section {
+    margin-top: 150px;
+  }
+  #circle-section{
+    margin-top: 100px;
+  }
+
+  .h2, h2 {
+    font-size: 3rem;
+  }
+
+    #circle-section {
+        margin-top: 30px; /* Расстояние между оглавлением и кружками */
+    }
+    
+    #circle-section .col-md-4 {
+        margin-bottom: 30px; /* Расстояние между кружками */
+    }
+    
+    #button-section {
+        margin-top: 10px; /* Расстояние между кружками и кнопками */
+    }
+    .img-fluid mb-3 {
+        max-width: 100%;
+        height: auto;
+        margin-top: -18px;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #marketing-keys .col-md-6 {
+        position: relative;
+    }
+    
+    #marketing-keys .col-md-6 img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+    
+    #marketing-keys .col-md-6 img:nth-child(2) {
+        z-index: 2;
+    }
+    
+    #marketing-keys .col-md-6 img:nth-child(3) {
+        z-index: 6;
+    }
+
+    .justify-content-center {
+        -ms-flex-pack: center!important;
+        justify-content: center;
+        margin-bottom: 182px;
+    }
+    
+    .draggable {
+        cursor: grab;
+    }
+    
+    .draggable:active {
+        cursor: grabbing;
+    }
+    
+    .mb-3, .my-3 {
+        margin-top: 61px;
+        margin-bottom: -7rem!important;
+    }
+    
+    .img-fluid draggable{
+        margin-bottom: 100px;
+        margin-left: 100px;
+    }
+    .h2, h2 {
+        font-size: 5rem;
+        margin-top: 226px;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0.5rem;
+        font-family: ui-sans-serif;
+        font-weight: 500;
+        line-height: 1.2;
+        color: inherit;
+    }
+
+    #video-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #video {
+        flex: 1;
+    }
+    #description {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .btn-success {
+        color: #fff;
+        background-color: #cd8833;
+        border-color: #bccd51;
+    }
+    .btn-warning {
+        color: #ffffff;
+        background-color: rgb(81, 158, 129);
+        border-color: #44dfa3;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #b9963c;
+        border-color: #946e10;
+        justify-content: center;
+    }
+
+    .container mt-5 mb-5{
+        margin-top: 10px;
+    }
+
+    #middle-section h2, #contact h2 {
+        text-align: center;
+        margin-top: 75px;
+    }
+
+    .justify-content-center {
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        margin-top: -271px;
+    }
+    #video-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: row;
+        margin-top: 235px;
+    }
+
+@media (max-width: 768px) {
+    #button-section .col-md-6 {
+        margin-top: 100px;
+    }
+    .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 39.333333%;
+    } 
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 59%;
+    }
+}

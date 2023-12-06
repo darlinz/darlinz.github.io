@@ -1,0 +1,162 @@
+.header a, a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.header h1{
+    letter-spacing: 15px;
+    font-size: 300%;
+}
+
+.header p{
+    color: red !important;
+    font-size: 90%;
+    letter-spacing: 3px;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: rgb(94, 7, 7);
+    border-color: rgb(94, 7, 7);
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: rgb(94, 7, 7);
+}
+
+.nav-pills>li>a {
+    color: red;
+}
+
+.nav-pills>li>a:hover {
+    background-color: rgb(94, 7, 7);
+}
+
+.navbar-inverse {
+    padding: 1%;
+    border-radius: 0;
+}
+
+@media (max-width: 767px) {
+    .nav-pills>li {
+        float: none;
+    }
+
+    .nav-pills {
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 280%;
+        letter-spacing: 5px;
+    }
+
+    .header {
+        text-align: center;
+    }
+}
+
+.clear {
+    clear: both;
+    height: 63px;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+html, body{
+    height: 100%;
+}
+
+.game_block {
+    text-align: center;
+}
+
+.game_block img{
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: solid 5px rgb(119, 3, 3);
+    width: 100%;
+}
+
+.game_label {
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+.margin-8 {
+    margin-top: 8%;
+}
+
+.panel {
+   border: none; 
+}
+
+.panel-body{
+    background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+    background-color: rgb(94, 7, 7);
+    color: white;
+    border-color: transparent;
+}
+
+.sidebar-header {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.input-lg {
+    font-size: 14px;
+}
+
+.list-group-item-warning {
+    color: rgb(94, 7, 7);
+    background-color: #dac5c5;
+}
+
+.badge {
+    background-color: #000000;
+}
+
+.info-block{
+    font-size: 120%;
+}
+
+.info-block .badge {
+    font-size: 80%;
+}
+
+.info-block span{
+    margin-right: 3%;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
+.table tbody>tr>td.vert-align {
+    vertical-align: middle;
+}
+
+footer{
+    color: #ff0000;
+    background: rgb(94, 7, 7);
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
+
+footer a{
+    color: #ff0000;
+}
+
+footer a:hover{
+    color: #efefef;
+}
