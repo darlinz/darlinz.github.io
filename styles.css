@@ -8,7 +8,7 @@ html{
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     text-align: center;
-    color: #d17a7a;
+    color: #ff0000;
     background: #27353f;
 }
 
@@ -23,7 +23,7 @@ html{
 }
 
 .my_projects a{
-    color: #39bedc;
+    color: #3700ff;
 }
 
 #mailme{
